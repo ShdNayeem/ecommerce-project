@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comma </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="commalogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar Section-->
+    <nav class="navbar">
+        <img class="comma-img" src="./images/foodservelogo1.webp" alt="commalogo">
+        <h1> Comma </h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html"> Home </a></p>
+            <p class="navbar-link"><a href="purchase.html"> Purchase </a></p>
+            <p class="navbar-link"><a href="contact.html"> Contact </a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align:right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html"> Home </a></p>
+            <p class="side-navbar-link"><a href="purchase.html"> Purchase </a></p>
+            <p class="side-navbar-link"><a href="contact.html"> Contact </a></p>
+        </div>
+    </div>
+    <h1 class="purchase-heading"> Purchase your Products </h1>
+
+    <!-- Purchase Section-->
+
+    <div class="purchase-section">
+        <form class="purchase-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="purchase" id="products">
+
+            <div class="purchase-box">
+                <img src="./vegetables/onionimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Onion </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/tomatoimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Tomato </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/potatoimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Potato </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/carrotimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Carrot </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/beansimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Beans </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/beatsimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Beatroot </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/cabbageimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Cabbage </h3>
+            </div>
+            <div class="purchase-box">
+                <img src="./vegetables/broccoliimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Brocolli </h3>
+            </div>
+            <div class="purchase-box-3">
+                <img src="./vegetables/eggplantimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Eggplant </h3>
+            </div>
+            <div class="purchase-box-3">
+                <img src="./vegetables/garlicimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Garlic </h3>
+            </div>
+            <div class="purchase-box-3">
+                <img src="./vegetables/capsicumimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Capsicum </h3>
+            </div>
+            <div class="purchase-box-3">
+                <img src="./vegetables/cucumberimg.jpg" width="300" height="200" alt="onionimage">
+                <h3> Cucumber </h3>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer Section-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div>
+                <h2 class="container-heading"> Comma </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non excepturi quas ipsum laborum
+                    illo dolor repellendus omnis quasi enim deleniti culpa labore, maiores distinctio magni voluptatibus
+                    dolorum vel deserunt. Delectus, quaerat aperiam.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-whatsapp" style="color: white;"></i>
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                </div>
+                <div class="info">
+                    <div>
+                        <div class="info-heading">
+                        <h2> Contact Us</h2>
+                        </div>
+                        
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                            +91 568293680
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            comma@gmail.com
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Tamilnadu
+                        </div>
+                    </div>
+
+                    <div class="market">
+                        <div class="market-info">
+                            <div class="visit-market-icon"> 
+                                <i class="fa-solid fa-store"></i>
+                                <h2 class="visit-market"> Visit Our Market</h2>
+                            </div>
+                                <h4 class="opening-heading">Opening Hours</h4>
+                                <div class="days-hours">
+                                    <div class="days">
+                                        <p> Monday</p>
+                                        <p> Tuesday</p>
+                                        <p> Wednesday</p>
+                                        <p> Thursday</p>
+                                        <p> Friday</p>
+                                        <p> Saturday</p>
+                                        <p class="closed"> Sunday</p>
+                                    </div>
+                                    <div class="hours">
+                                        <p> 6am to 10pm</p>
+                                        <p> 6am to 10pm</p>
+                                        <p> 6am to 10pm</p>
+                                        <p> 6am to 10pm</p>
+                                        <p> 6am to 10pm</p>
+                                        <p> 6am to 10pm </p>
+                                        <p class="closed"> Closed </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="address">
+                        <div class="address-heading">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h2> Address </h2>
+                        </div>
+
+                        <div class="address-details"> 
+                            <p> 97, Comma Market </p>
+                            <p> Main Road </p>
+                            <p> Tamilnadu </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="rights-reserved">Copyright © Home Delivery - All Rights Reserved.</p>
+    </div>
+    <script src="index.js"></script>
+    <script src="purchase.js"></script>
+</body>
+
+</html>
