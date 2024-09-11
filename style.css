@@ -385,8 +385,8 @@ body{
     }
 }
 @media screen and (max-width:800px) {
-    .navbar{
-        z-index: 3;
+    .side-navbar{
+        z-index: 4;
     }
     .navbar-menu-toggle{
         display: block;
