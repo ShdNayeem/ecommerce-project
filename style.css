@@ -103,8 +103,22 @@ body{
     color: white;
     text-decoration: none;
 }
-.header-image{
-    
+.h2-provide{
+    text-align: center;
+    justify-content: center;
+}
+.span-customer{
+    text-align: center;
+    justify-content: center;
+}
+.service-para{
+    transition: all .5s;
+    margin-top: 10px;
+}
+.service-container-1{
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .service{
     padding: 20px;
